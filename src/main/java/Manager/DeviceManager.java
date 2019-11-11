@@ -15,7 +15,7 @@ public class DeviceManager {
 
     public DeviceManager() {
         client = ClientBuilder.newClient();
-        base = "http://172.20.10.5:8080/SmartHouseApi/devices/";
+        base = "http://172.20.10.4:8080/SmartHouseApi/devices/";
     }
 
     public void updateDevice(Device device, long deviceId) {
